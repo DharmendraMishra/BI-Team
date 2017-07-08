@@ -1,0 +1,7 @@
+select a.site_id,b.site_desc,e.acct_mgr_desc,c.client_name,c.campaign_name,c.flight_name,c.start_date,c.end_date,max(d.day_desc) from  TF_ADSPACE_BUY_FCT a,
+*
+ERROR at line 1:
+ORA-12801: error signaled in parallel query server P000
+ORA-01652: unable to extend temp segment by 32 in tablespace TEMP
+
+
